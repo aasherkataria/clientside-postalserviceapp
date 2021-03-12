@@ -20,7 +20,7 @@ nav {
   list-style: none;
 }
 
-.package-table{
+.package-table {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -31,6 +31,8 @@ table {
   border: 1px solid black;
 }
 
-tr {
+table,
+td {
   border: 1px solid black;
+  padding: 10px;
 }

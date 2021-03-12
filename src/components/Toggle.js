@@ -18,7 +18,10 @@ export default class Toggle extends Component {
 
         return (
             <div>
-                { render }
+                {render ({
+                    on: this.state.on,
+                    toggle: this.toggle,
+                })}
             </div>
         )
     }
